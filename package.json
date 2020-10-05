@@ -1,0 +1,31 @@
+{
+  "name": "bandnames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx http-server --cors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fleyva251/randomBandnameGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fleyva251/randomBandnameGenerator/issues"
+  },
+  "homepage": "https://github.com/fleyva251/randomBandnameGenerator#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
